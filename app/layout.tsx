@@ -28,7 +28,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <main className="mx-auto w-full max-w-5xl flex-1 px-4 py-10">{children}</main>
         <footer className="border-t border-black/10">
           <div className="mx-auto max-w-5xl px-4 py-6 text-xs text-black/50">
-            Acme Corp. A test business for Foreman. Nothing here is for sale.
+            Acme Corp, est. 1949
           </div>
         </footer>
       </body>
