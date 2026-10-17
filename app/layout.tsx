@@ -21,7 +21,6 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
               ACME<span className="text-red-600">.</span>
             </Link>
             <Link href="/" className="text-black/60 hover:text-black">Products</Link>
-            <Link href="/pricing" className="text-black/60 hover:text-black">Pricing</Link>
             <Link href="/about" className="text-black/60 hover:text-black">About</Link>
           </nav>
         </header>
