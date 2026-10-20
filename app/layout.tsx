@@ -15,6 +15,9 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html lang="en" className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}>
       <body className="min-h-full flex flex-col">
+        <div className="bg-red-600 px-4 py-2 text-center text-sm font-medium text-white">
+          Free shipping on orders over $100
+        </div>
         <header className="border-b border-black/10">
           <nav className="mx-auto flex max-w-5xl items-center gap-6 px-4 py-4 text-sm">
             <Link href="/" className="mr-auto text-base font-semibold tracking-tight">
