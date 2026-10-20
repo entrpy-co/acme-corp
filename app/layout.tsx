@@ -22,7 +22,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <header className="border-b border-black/10">
           <nav className="mx-auto flex max-w-5xl items-center gap-6 px-4 py-4 text-sm">
             <Link href="/" className="mr-auto">
-              <Image src="/acme-logo.png" alt="Acme" width={120} height={40} loading="eager" className="h-10 w-auto" />
+              <Image src="/acme-logo.png" alt="Acme" width={96} height={32} loading="eager" className="h-8 w-auto" />
             </Link>
             <Link href="/" className="text-black/60 hover:text-black">Products</Link>
             <Link href="/pricing" className="text-black/60 hover:text-black">Pricing</Link>
